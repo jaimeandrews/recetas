@@ -104,9 +104,11 @@ body{
 }
 
 .recipe_image {
-    max-width: 100%;
+    max-width: 80%;
     border-radius: 5px;
     @include box-shadow;
+    margin-bottom: 10px;
+    height: auto;
 }
 
 #recipe_info{
@@ -145,4 +147,7 @@ body{
     float: left;
     width: 30% !important;
     margin-left: 5%;
+}
+.add-button{
+    margin-top: 25px;
 }
